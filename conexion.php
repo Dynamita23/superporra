@@ -1,7 +1,7 @@
 <?php
-$host = "localhost"; // Cambia según tu configuración
-$user = "root";
-$password = "";
+$host = "postgresql://admin:FS7scmogwDj2AFXYottKgsZcB9gAxkjK@dpg-csf7tk68ii6s739d1s7g-a/spm"; // Cambia según tu configuración
+$user = "admin";
+$password = "FS7scmogwDj2AFXYottKgsZcB9gAxkjK";
 $database = "spm";
 
 $conn = new mysqli($host, $user, $password, $database);
